@@ -110,6 +110,7 @@ def transfer(user):
     print('******Transfer******')
     transferedAmount = int(input('How much would you like to transfer?\n'))
     if user[4] >= transferedAmount:
+        int(input('Enter recepient account number?\n'))
         user[4] -= transferedAmount
         print(f'You transferred {transferedAmount}')
         continueTransaction(user)
