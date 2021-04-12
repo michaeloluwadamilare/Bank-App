@@ -107,7 +107,7 @@ def depositOperation(user):
 
 
 def transfer(user):
-    print('******withdrawal******')
+    print('******Transfer******')
     transferedAmount = int(input('How much would you like to transfer?\n'))
     if user[4] >= transferedAmount:
         user[4] -= transferedAmount
