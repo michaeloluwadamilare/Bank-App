@@ -1,5 +1,5 @@
 import random
-db = {}
+db = {2038753667: ['Mike', 'Joe', 'mikejoe@gmail.com','pass',3000]}
 
 
 def init():
@@ -128,7 +128,7 @@ def continueTransaction(user):
     elif selectedOption == 2:
         print('Thanks for banking with us')
         exit()
-        
+
     else:
         print('Invalid option selected')
 
