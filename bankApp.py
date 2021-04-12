@@ -46,8 +46,7 @@ def register():
 
     db[accountNumber] = [firstname, lastname, email, password, accountBal]
 
-    print(
-        f'Your Account has been created and your account number is: {accountNumber}')
+    print(f'Your Account has been created and your account number is: {accountNumber}')
     login()
 
 
